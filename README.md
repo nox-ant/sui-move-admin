@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Sui-4DA2FF?style=for-the-badge&logo=sui&logoColor=white" />
   <img src="https://img.shields.io/badge/Move-7B42BC?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
 </p>
 
 ---
@@ -15,7 +15,7 @@
 ```toml
 # Move.toml
 [dependencies]
-SuiMoveAdmin = { git = "https://github.com/nox-ant/sui-move-admin.git", rev = "main" }
+SuiMoveAdmin = { git = "https://github.com/nox-ant/sui-move-admin.git", rev = "mainnet" }
 ```
 
 ```move
@@ -136,4 +136,4 @@ public fun test_create_temp_admin<T>(expires_epoch: u64, ctx: &mut TxContext): A
 
 ## License
 
-[Apache-2.0](LICENSE)
+MIT

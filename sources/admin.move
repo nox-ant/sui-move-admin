@@ -1,5 +1,5 @@
 // Copyright (c) 2024
-// SPDX-License-Identifier: Apache-2.0
+// SPDX-License-Identifier: MIT
 
 /// Generic admin capability module for Sui Move.
 /// Uses phantom generics with OTW to ensure package-level isolation.
