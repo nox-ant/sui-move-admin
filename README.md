@@ -45,15 +45,6 @@ public fun admin_only(cap: &AdminCap<MY_MODULE>, ctx: &TxContext) {
 
 ---
 
-## Testnet
-
-| Type | ID | Version | Date |
-|---------|-----------|------------|---------|
-| PackageID | `0xc42e20749aeb3df5a5fc3af0fc008ab7b17a7537aefda9291a8ed725ee95c024`  | 1 | 07/12/2025 |
-| UpgradeCap | `0x1de91b08f8b91e05f334d903c5649005b59430a88ee557edb4ed711397467ca4` | 1 | 07/12/2025 |
-
----
-
 ## API
 
 ### Create Super Admins
