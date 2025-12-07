@@ -1,0 +1,16 @@
+# Build artifacts
+build/
+
+# Coverage files
+.coverage_map.mvcov
+.trace
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
