@@ -15,7 +15,7 @@
 ```toml
 # Move.toml
 [dependencies]
-SuiMoveAdmin = { git = "https://github.com/nox-ant/sui-move-admin.git", rev = "mainnet" }
+SuiMoveAdmin = { git = "https://github.com/nox-ant/sui-move-admin.git", rev = "testnet" }
 ```
 
 ```move
