@@ -12,10 +12,18 @@
 
 ---
 
+## Deployment
+
+| Network | PackageID | UpgradeCap | Version | Date |
+|---------|-----------|------------|---------|------|
+| testnet | `0xc42e20749aeb3df5a5fc3af0fc008ab7b17a7537aefda9291a8ed725ee95c024` | `0x1de91b08f8b91e05f334d903c5649005b59430a88ee557edb4ed711397467ca4` | 1 | 2025-12-07 |
+
+---
+
 ```toml
 # Move.toml
 [dependencies]
-SuiMoveAdmin = { git = "https://github.com/nox-ant/sui-move-admin.git", rev = "mainnet" }
+SuiMoveAdmin = { git = "https://github.com/nox-ant/sui-move-admin.git", rev = "testnet" }
 ```
 
 ```move
