@@ -12,11 +12,12 @@
 
 ---
 
-## Deployment
+## Testnet
 
-| Network | PackageID | UpgradeCap | Version | Date |
-|---------|-----------|------------|---------|------|
-| testnet | `0xc42e20749aeb3df5a5fc3af0fc008ab7b17a7537aefda9291a8ed725ee95c024` | `0x1de91b08f8b91e05f334d903c5649005b59430a88ee557edb4ed711397467ca4` | 1 | 2025-12-07 |
+| Type | ID | Version | Date |
+|---------|-----------|------------|---------|
+| PackageID | `0xc42e20749aeb3df5a5fc3af0fc008ab7b17a7537aefda9291a8ed725ee95c024`  | 1 | 07/12/2025 |
+| UpgradeCap | `0x1de91b08f8b91e05f334d903c5649005b59430a88ee557edb4ed711397467ca4` | 1 | 07/12/2025 |
 
 ---
 
@@ -50,15 +51,6 @@ public fun admin_only(cap: &AdminCap<MY_MODULE>, ctx: &TxContext) {
 - **Epoch-based expiration** — Temp admins auto-expire
 - **No `store` ability** — Caps can't be transferred by arbitrary contracts
 - **Import, don't deploy** — One audited module for the ecosystem
-
----
-
-## Testnet
-
-| Type | ID | Version | Date |
-|---------|-----------|------------|---------|
-| PackageID | `0xc42e20749aeb3df5a5fc3af0fc008ab7b17a7537aefda9291a8ed725ee95c024`  | 1 | 07/12/2025 |
-| UpgradeCap | `0x1de91b08f8b91e05f334d903c5649005b59430a88ee557edb4ed711397467ca4` | 1 | 07/12/2025 |
 
 ---
 
